@@ -5,8 +5,18 @@ import requests from './requests';
 function App() {
   return (
     <div className="app">
-      <Row title="Netflix Original" fetchUrl={requests.fetchNetflixOriginals} />
+      <Row 
+        title="Netflix Original" 
+        fetchUrl={requests.fetchNetflixOriginals} 
+        isLargeRow
+      />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
+      <Row title="Top Rated" fetchUrl={requests.fetchTopRated}/>
+      <Row title="Action Movies" fetchUrl={requests.fetchActionMovies}/>
+      <Row title="Comedy Movies" fetchUrl={requests.fetchActionMovies}/>
+      <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies}/>
+      <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies}/>
+      <Row title="Documentaries Movies" fetchUrl={requests.fetchDocumentaries}/>
     </div>
   );
 }
