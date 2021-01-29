@@ -1,4 +1,7 @@
-.row {}
+.row {
+    color: white;
+    margin-left: 20px;
+}
 
 .rows__posts {
     display: flex;
