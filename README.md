@@ -6,5 +6,5 @@ netflix clone
 3) themoviedb.org  Movie API
 
 NPM Packages
-Movie Trailer: https://www.npmjs.com/package/movie-trailer
-React youtube: https://www.npmjs.com/package/react-youtube
+1) Movie Trailer: https://www.npmjs.com/package/movie-trailer
+2) React youtube: https://www.npmjs.com/package/react-youtube
